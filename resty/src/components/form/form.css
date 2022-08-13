@@ -1,0 +1,114 @@
+form {
+    display: grid;
+    margin: auto;
+    margin-top: 7%;
+    max-width: 100%;
+    padding: 1em;
+    background: #8a1e1e;
+    opacity: 95%;
+  }
+  form .label-input-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    margin-bottom: 1em;
+    min-height: 100%;
+  }
+  form .label-input {
+    display: flex;
+    grid-gap: 0.5em;
+  }
+  form .input {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    border: 1px solid rgb(171, 54, 54);
+    padding: 0.5em;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  form .btn {
+    cursor: pointer;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    padding: 0.5em;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+  }
+  form .btn:hover {
+    background: burlywood;
+  }
+  form label {
+    display: flex;
+    margin: 1rem 0;
+    justify-content: center;
+    align-items: center;
+  }
+  form label.methods .btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  form label.methods .btns #get {
+    cursor: pointer;
+    border-radius: 40%;
+    border: 1px solid #8b8b8b;
+    color: #8b8b8b;
+    font-weight: bold;
+    margin-right: 1rem;
+    padding: 0.25rem 0.5rem;
+    background: green;
+    width: auto;
+  }
+  form label.methods .btns #get:hover {
+    background: lightgreen;
+    color: black;
+  }
+  form label.methods .btns #post {
+    cursor: pointer;
+    border-radius: 40%;
+    border: 1px solid #8b8b8b;
+    color: #8b8b8b;
+    font-weight: bold;
+    margin-right: 1rem;
+    padding: 0.25rem 0.5rem;
+    background: blue;
+    width: auto;
+  }
+  form label.methods .btns #post:hover {
+    background: lightskyblue;
+    color: black;
+  }
+  form label.methods .btns #put {
+    cursor: pointer;
+    border-radius: 40%;
+    border: 1px solid #8b8b8b;
+    color: #8b8b8b;
+    font-weight: bold;
+    margin-right: 1rem;
+    padding: 0.25rem 0.5rem;
+    background: yellow;
+    width: auto;
+  }
+  form label.methods .btns #put:hover {
+    background: lightgoldenrodyellow;
+    color: black;
+  }
+  form label.methods .btns #delete {
+    cursor: pointer;
+    border-radius: 40%;
+    border: 1px solid #8b8b8b;
+    color: #8b8b8b;
+    font-weight: bold;
+    margin-right: 1rem;
+    padding: 0.25rem 0.5rem;
+    background: red;
+    width: auto;
+  }
+  form label.methods .btns #delete:hover {
+    background: lightcoral;
+    color: black;
+  }/*# sourceMappingURL=form.css.map */

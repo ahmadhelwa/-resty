@@ -1,0 +1,63 @@
+$backgroundColor: #00000099;
+$borderColor: #2a2828;
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  // background-color: &$backgroundColor;
+  height: 100%;
+
+  #root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  footer {
+    background: rgb(158, 15, 15);
+    border-top: 1px solid $borderColor;
+    padding: 1em 3em;
+    margin: 0;
+    color: #eee;
+    opacity: 95%;
+  }
+
+  header {
+    background: rgb(161, 23, 23);
+    border-bottom: 1px solid $borderColor;
+    color: #eee;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    opacity: 95%;
+  }
+}
+
+.req {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  background-color: #6e3939;
+  opacity: 95%;
+  margin: 10;
+  padding: 0.5em;
+  border: 10px solid #ccc;
+}
+
+.url {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  background-color: #843232;
+  opacity: 95%;
+  margin: 10;
+  padding: 0.5em;
+  border: 10px solid #ccc;
+}

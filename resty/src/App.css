@@ -1,0 +1,57 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: rgb(195, 155, 155);
+}
+
+body {
+  /* background-image: url("./dd.png"); */
+}
+body #root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+body footer {
+  background: rgb(153, 12, 12);
+  border-top: 1px solid #2a2828;
+  padding: 1em 3em;
+  margin: 0;
+  color: #eee;
+  opacity: 95%;
+}
+body header {
+  background: rgb(133, 16, 16);
+  border-bottom: 1px solid #982020;
+  color: #eee;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  opacity: 95%;
+}
+
+.req {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  background-color: #ac2a2a;
+  opacity: 95%;
+  margin: 10;
+  padding: 0.5em;
+  border: 10px solid #ccc;
+}
+
+.url {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  background-color: #8b8b8b;
+  opacity: 95%;
+  margin: 10;
+  padding: 0.5em;
+  border: 10px solid #ccc;
+}/*# sourceMappingURL=App.css.map */
